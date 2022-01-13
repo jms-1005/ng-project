@@ -1,0 +1,14 @@
+<img [src]="bannerimage" />
+
+<p>{{ products }}</p>
+
+<ul>
+  <li *ngFor="let product of products "> {{ product }}</li>
+</ul>
+
+<div *ngIf="isTrue">Content</div>
+
+<!-- Event binding -->
+<button (click)="onClick()">Click</button>
+
+<like></like>
